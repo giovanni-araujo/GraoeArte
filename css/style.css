@@ -21,6 +21,10 @@
     font-weight: 600;
 }
 
+.nav__item {
+    display: flex;
+}
+
 .nav__lista{
     display: flex;
     gap: 30px;
@@ -30,6 +34,33 @@
 
 }
 
+.nav__link{
+    padding: 6px 8px;
+    border-radius: 7px;
+}
+
 .nav__link:hover{
     background-color:var(--color-primary-hover)
+}
+
+.section-inicio{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.section-inicio__container{
+    display: flex;
+    gap: 40px;
+}
+
+.section-inicio__titulo{
+    margin-bottom: 20px;
+    font-size: var(--font-size-lg);
+}
+
+.section-inicio__texto{
+    font-size: var(--font-size-base)
 }
