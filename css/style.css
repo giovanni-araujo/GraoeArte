@@ -5,12 +5,31 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(80, 42, 11);
+    background-color: var(--color-header-bg);
     align-items: center;
     z-index: 1000;
     padding: 0 5%;
+    height: 7vh;
+}
 
+.header__titulo{
+    font-size: var(--font-size-lg);
+    color:var(--color-header-text);
+    font-weight: 600;
+}
+
+.nav__lista{
+    display: flex;
+    gap: 30px;
+    background-color: transparent;
+    padding: 7px;
+    
+
+}
+
+.nav__link:hover{
+    background-color:var(--color-primary-hover)
 }
