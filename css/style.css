@@ -1,0 +1,16 @@
+@import url(./design-system.css);
+@import url(./reset.css);
+
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(80, 42, 11);
+    align-items: center;
+    z-index: 1000;
+    padding: 0 5%;
+
+}
