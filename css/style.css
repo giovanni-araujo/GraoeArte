@@ -31,12 +31,16 @@
     background-color: transparent;
     padding: 7px;
     
+    
 
 }
 
 .nav__link{
     padding: 6px 8px;
     border-radius: 7px;
+    font-size: var(--font-size-sm);
+    color: var(--color-header-text);
+
 }
 
 .nav__link:hover{
@@ -54,6 +58,7 @@
 .section-inicio__container{
     display: flex;
     gap: 40px;
+    align-items: center;
 }
 
 .section-inicio__titulo{
@@ -64,3 +69,10 @@
 .section-inicio__texto{
     font-size: var(--font-size-base)
 }
+
+.card-imagem__img{
+    border-radius: 10px;
+}
+
+
+
