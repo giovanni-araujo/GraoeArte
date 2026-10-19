@@ -90,20 +90,20 @@
 }
 
 .section-graos__container--cafe{
-    
+    border-radius: 10px;
     background-color: var(--color-bg-card);
     padding:  2%;
 }
 
 .section-graos__container--po{
-    
+    border-radius: 10px;
     background-color: var(--color-bg-card);
     padding: 10px;
     padding:  2%;
 }
 
 .section-graos__container--grao{
-    
+    border-radius: 10px;
     background-color: var(--color-bg-card);
     padding: 10px;
     padding:  2%;
@@ -135,4 +135,26 @@
 
 .section-graos__cards p{
     font-size: var(--font-size-sm);
+}
+
+.section-torra{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 25%;
+}
+
+.section-torra__titulo{
+    font-size: var(--font-size-lg);
+    margin-bottom: 20px;
+}
+
+.section-torra__texto{
+    font-size: var(--font-size-base);
+    border: 2px dashed var(--color-border);
+    padding: 2%;
+    border-radius: 10px;
+    background-color: var(--color-bg-card) ;
 }
