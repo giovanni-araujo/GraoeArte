@@ -1,10 +1,11 @@
 @import url(./design-system.css);
 @import url(./reset.css);
 
-.conteudo-principal{
+.conteudo-principal {
     background-color: var(--color-bg-main);
 }
-.header{
+
+.header {
     position: fixed;
     left: 0;
     top: 0;
@@ -18,9 +19,9 @@
     height: 7vh;
 }
 
-.header__titulo{
+.header__titulo {
     font-size: var(--font-size-base);
-    color:var(--color-header-text);
+    color: var(--color-header-text);
     font-weight: 600;
 }
 
@@ -28,17 +29,17 @@
     display: flex;
 }
 
-.nav__lista{
+.nav__lista {
     display: flex;
     gap: 30px;
     background-color: transparent;
     padding: 7px;
-    
-    
+
+
 
 }
 
-.nav__link{
+.nav__link {
     padding: 6px 8px;
     border-radius: 7px;
     font-size: var(--font-size-sm);
@@ -46,11 +47,11 @@
 
 }
 
-.nav__link:hover{
-    background-color:var(--color-primary-hover)
+.nav__link:hover {
+    background-color: var(--color-primary-hover)
 }
 
-.section-inicio{
+.section-inicio {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -58,86 +59,95 @@
     padding: 0 5%;
 }
 
-.section-inicio__container{
+.section-inicio__container {
     display: flex;
     gap: 40px;
     align-items: center;
 }
 
-.section-inicio__titulo{
+.section-inicio__titulo {
     margin-bottom: 20px;
     font-size: var(--font-size-lg);
+    color: var(--color-text-title);
 }
 
-.section-inicio__texto{
-    font-size: var(--font-size-base)
+.section-inicio__texto {
+    font-size: var(--font-size-base);
+    color: var(--color-text-body);
+    
 }
 
-.card-imagem__img{
+.card-imagem__img {
     border-radius: 10px;
 }
 
-.section-graos{
+.section-graos {
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.section-graos__cards{
+.section-graos__cards {
     display: flex;
     padding: 0 5%;
     gap: 10px;
-    
-    
+
+
 }
 
-.section-graos__container--cafe{
+.section-graos__container--cafe {
     border-radius: 10px;
     background-color: var(--color-bg-card);
-    padding:  2%;
+    padding: 2%;
 }
 
-.section-graos__container--po{
-    border-radius: 10px;
-    background-color: var(--color-bg-card);
-    padding: 10px;
-    padding:  2%;
-}
-
-.section-graos__container--grao{
+.section-graos__container--po {
     border-radius: 10px;
     background-color: var(--color-bg-card);
     padding: 10px;
-    padding:  2%;
+    padding: 2%;
+}
+
+.section-graos__container--grao {
+    border-radius: 10px;
+    background-color: var(--color-bg-card);
+    padding: 10px;
+    padding: 2%;
 }
 
 
-.section-graos__imagem img{
+.section-graos__imagem img {
     height: 200px;
     border-radius: 10px;
-    width: 500px;  
-    
-    
+    width: 500px;
+
+
 }
 
-.section-graos__titulo{
+.section-graos__titulo {
     justify-content: center;
     display: flex;
     margin-bottom: 40px;
     font-size: var(--font-size-lg);
+    color: var(--color-text-title);
 }
 
-.section-graos__subtitulo{
+.section-graos__subtitulo {
     font-size: var(--font-size-base);
     margin-top: 10px;
+    margin-bottom: 10px;
     color: var(--color-secondary);
 
-    
+
 }
 
-.section-graos__cards p{
+.section-graos__cards p {
     font-size: var(--font-size-sm);
+    color: var(--color-text-body);
 }
 
-.section-torra{
+.section-torra {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -146,15 +156,70 @@
     padding: 0 25%;
 }
 
-.section-torra__titulo{
+.section-torra__titulo {
     font-size: var(--font-size-lg);
     margin-bottom: 20px;
+    color: var(--color-text-title);
 }
 
-.section-torra__texto{
+.section-torra__texto {
     font-size: var(--font-size-base);
     border: 2px dashed var(--color-border);
     padding: 2%;
     border-radius: 10px;
-    background-color: var(--color-bg-card) ;
+    background-color: var(--color-bg-card);
+    color: var(--color-text-body);
 }
+
+.section-assinatura {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-assinatura__titulo {
+    margin-bottom: 40px;
+    font-size: var(--font-size-lg);
+    color: var(--color-text-title);
+    
+}
+
+.section-assinatura__cards{
+    display: flex;
+    gap: 20px;
+    padding: 0 5%;
+}
+
+.section-assinatura__subtitulo{
+    color: var(--color-secondary) ;
+    margin-bottom: 10px;
+}
+
+.section-assinatura__cards--entusiasta{
+    background-color: var(--color-bg-card);
+    padding: 2%;
+    font-size: var(--font-size-sm);
+    border-radius: 10px;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-body);
+}
+.section-assinatura__cards--barista{
+    background-color: var(--color-bg-card);
+    padding: 2%;
+    font-size: var(--font-size-sm);
+    border-radius: 10px;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-body);
+}
+.section-assinatura__cards--mestre{
+    background-color: var(--color-bg-card);
+    padding: 2%;
+    font-size: var(--font-size-sm);
+    border-radius: 10px;
+    border: 1px solid var(--color-border);
+    color: var(--color-text-body);
+}
+
+
