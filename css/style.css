@@ -57,18 +57,21 @@
     align-items: center;
     justify-content: center;
     padding: 0 5%;
+    
 }
 
 .section-inicio__container {
     display: flex;
     gap: 40px;
     align-items: center;
+    margin-top: 10%;
 }
 
 .section-inicio__titulo {
     margin-bottom: 20px;
     font-size: var(--font-size-lg);
     color: var(--color-text-title);
+    font-family: var(--font-title);
 }
 
 .section-inicio__texto {
@@ -77,8 +80,10 @@
     
 }
 
-.card-imagem__img {
+.card-imagem img {
     border-radius: 10px;
+    height: 400px;
+    
 }
 
 .section-graos {
@@ -86,12 +91,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+}
+
+.section-graos__container{
+    margin-top: 10%;
 }
 
 .section-graos__cards {
     display: flex;
     padding: 0 5%;
     gap: 10px;
+    
 
 
 }
@@ -131,6 +142,9 @@
     margin-bottom: 40px;
     font-size: var(--font-size-lg);
     color: var(--color-text-title);
+    font-family: var(--font-title);
+    
+    
 }
 
 .section-graos__subtitulo {
@@ -154,12 +168,18 @@
     align-items: center;
     flex-direction: column;
     padding: 0 25%;
+    margin-top: 15%;
+}
+
+.section-torra__container{
+    margin-top: 10%;
 }
 
 .section-torra__titulo {
     font-size: var(--font-size-lg);
     margin-bottom: 20px;
     color: var(--color-text-title);
+    font-family: var(--font-title);
 }
 
 .section-torra__texto {
@@ -179,10 +199,16 @@
     align-items: center;
 }
 
+.section-assinatura__container{
+    margin-top: 10%;
+}
+
 .section-assinatura__titulo {
     margin-bottom: 40px;
     font-size: var(--font-size-lg);
     color: var(--color-text-title);
+    text-align: center;
+    font-family: var(--font-title);
     
 }
 
@@ -231,9 +257,12 @@
     padding: 0 5%;
 }
 
+
+
 .section-faq__titulo{
     margin-bottom: 30px;
     font-size: var(--font-size-lg);
+    font-family: var(--font-title);
 }
 
 .section-faq__perguntas{
@@ -282,4 +311,19 @@
     align-items: center;
     color: var(--color-header-text);
     
+}
+
+.whats{
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(96, 231, 102);
+    
+    position: fixed;
+    right: 2%;
+    bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: ;
 }

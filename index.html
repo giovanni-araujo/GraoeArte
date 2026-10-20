@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    </style>
 </head>
 
 <body>
@@ -31,7 +36,8 @@
             <div class="section-inicio__container">
                 <article class="section-inicio__conteudo">
                     <h2 class="section-inicio__titulo">Cafés Especiais Selecionados na Origem</h2>
-                    <p class="section-inicio__texto">A Grão & Arte conecta pequenos produtores de cafés especiais diretamente à sua
+                    <p class="section-inicio__texto">A Grão & Arte conecta pequenos produtores de cafés especiais
+                        diretamente à sua
                         xícara. Nossos grãos 100% Arábica possuem rastreabilidade completa, pontuação acima de
                         85 pontos SCA e torra artesanal semanal.
                     </p>
@@ -39,8 +45,8 @@
 
                 <aside class="section-inicio__aside">
                     <div class="card-imagem">
-                        <img src="https://placehold.co/600x400/2c1810/f3e5ab?text=Grao+e+Arte+Cafe"
-                            alt="Imagem ilustrativa de grãos de cafés" class="card-imagem__img">
+                        <img src="./img/graos_inicio.jpg" alt="Imagem ilustrativa de grãos de cafés"
+                            class="card-imagem__img">
                     </div>
                 </aside>
             </div>
@@ -48,138 +54,149 @@
 
         <!-- Section 2 -->
         <section id="graos" class="section-graos">
-            <div class="section-graos__titulo">
-                <h2>Microlotes Exclusivos</h2>
-            </div>
 
-            <div class="section-graos__cards">
-                <article class="section-graos__container--cafe">
-                    <div class="section-graos__imagem"  >
-                        <img src="./img/xicara.jpg" alt="Imagem xícara de café">
-                    </div>
-
-                    <div class="section-graos__subtitulo">
-                        <h3>Reserva da Serra - Sul de Minas</h3>
-                    </div>
-                    <p>
-                        Notas sensoriais de chocolate ao leite e avelã.
-                        Torra média clara com acidez cítrica agradável e corpo aveludado.
-                    </p>
-                </article>
-                <article class="section-graos__container--po">
-                    <div class="section-graos__imagem" >
-                        <img src="./img/pó_café.jpg" alt="Imagem pó de café">
-                    </div>
-
-                    <div class="section-graos__subtitulo">
-                        <h3>Chapada Diamantina - Bahia</h3>
-                    </div>
-                    <p>
-                        Notas florais marcantes e toque de rapadura. Torra
-                        clara que preserva a doçura natural e o aroma complexo do grão.
-                    </p>
-                </article>
-                <article class="section-graos__container--grao">
-                    <div class="section-graos__imagem">
-                        <img src="./img/graos.jpg" alt="Imagem de grãos de café">
-                    </div>
-
-                    <div class="section-graos__subtitulo">
-                        <h3>Vulcânico - Poços de Caldas</h3>
-                    </div>
-                    <p>
-                        Notas de frutas amarelas e caramelo intenso. Torra
-                        média com doçura elevada e finalização prolongada.
-                    </p>
-                </article>
+            <div class="section-graos__container">
+                <div class="section-graos__titulo">
+                    <h2>Microlotes Exclusivos</h2>
+                </div>
+                <div class="section-graos__cards">
+                    <article class="section-graos__container--cafe">
+                        <div class="section-graos__imagem">
+                            <img src="./img/xicara.jpg" alt="Imagem xícara de café">
+                        </div>
+                        <div class="section-graos__subtitulo">
+                            <h3>Reserva da Serra - Sul de Minas</h3>
+                        </div>
+                        <p>
+                            Notas sensoriais de chocolate ao leite e avelã.
+                            Torra média clara com acidez cítrica agradável e corpo aveludado.
+                        </p>
+                    </article>
+                    <article class="section-graos__container--po">
+                        <div class="section-graos__imagem">
+                            <img src="./img/pó_café.jpg" alt="Imagem pó de café">
+                        </div>
+                        <div class="section-graos__subtitulo">
+                            <h3>Chapada Diamantina - Bahia</h3>
+                        </div>
+                        <p>
+                            Notas florais marcantes e toque de rapadura. Torra
+                            clara que preserva a doçura natural e o aroma complexo do grão.
+                        </p>
+                    </article>
+                    <article class="section-graos__container--grao">
+                        <div class="section-graos__imagem">
+                            <img src="./img/graos.jpg" alt="Imagem de grãos de café">
+                        </div>
+                        <div class="section-graos__subtitulo">
+                            <h3>Vulcânico - Poços de Caldas</h3>
+                        </div>
+                        <p>
+                            Notas de frutas amarelas e caramelo intenso. Torra
+                            média com doçura elevada e finalização prolongada.
+                        </p>
+                    </article>
+                </div>
             </div>
         </section>
 
         <!-- Section 3 -->
         <section id="processo" class="section-torra">
-            <div class="section-torra__titulo" >
-                <h2>Do Cuidado no Campo ao Perfil de Torra</h2>
-            </div>
-            <div class="section-torra__texto" >
-                <p>
-                    Acompanhamos de perto todas as etapas: colheita seletiva manual dos frutos
-                    maduros, secagem em terreiros suspensos e perfilamento de torra computadorizado para
-                    extrair o máximo potencial de cada lote.
-                </p>
+
+            <div class="section-torra__container">
+                <div class="section-torra__titulo">
+                    <h2>Do Cuidado no Campo ao Perfil de Torra</h2>
+                </div>
+                <div class="section-torra__texto">
+                    <p>
+                        Acompanhamos de perto todas as etapas: colheita seletiva manual dos frutos
+                        maduros, secagem em terreiros suspensos e perfilamento de torra computadorizado para
+                        extrair o máximo potencial de cada lote.
+                    </p>
+                </div>
             </div>
         </section>
 
         <!-- Section 4 -->
         <section id="assinatura" class="section-assinatura">
-            <div class="section-assinatura__titulo">
-                <h2>Clube de Assinatura Mensal</h2>
-            </div>
 
-            <div class="section-assinatura__cards">
-                <article class="section-assinatura__cards--entusiasta" >
-                    <h3 class="section-assinatura__subtitulo">Plano Entusiasta</h3>
-                    <p>
-                        1 Pacote de 250g de café especial por mês + Cartão explicativo
-                        com o perfil sensorial do lote.
-                    </p>
-                </article>
-
-                <article class="section-assinatura__cards--barista">
-                    <h3 class="section-assinatura__subtitulo">Plano Barista</h3>
-                    <p>
-                        2 Pacotes de 250g de microlotes diferentes por mês + Brindes
-                        exclusivos e frete grátis.
-                    </p>
-                </article>
-
-                <article class="section-assinatura__cards--mestre">
-                    <h3 class="section-assinatura__subtitulo">Plano Mestre da Torra</h3>
-                    <p>
-                        1kg de café em grãos ou moído semanalmente para
-                        quem não vive sem um café fresco de altíssima qualidade.
-                    </p>
-                </article>
+            <div class="section-assinatura__container">
+                <div class="section-assinatura__titulo">
+                    <h2>Clube de Assinatura Mensal</h2>
+                </div>
+                <div class="section-assinatura__cards">
+                    <article class="section-assinatura__cards--entusiasta">
+                        <h3 class="section-assinatura__subtitulo">Plano Entusiasta</h3>
+                        <p>
+                            1 Pacote de 250g de café especial por mês + Cartão explicativo
+                            com o perfil sensorial do lote.
+                        </p>
+                    </article>
+                    <article class="section-assinatura__cards--barista">
+                        <h3 class="section-assinatura__subtitulo">Plano Barista</h3>
+                        <p>
+                            2 Pacotes de 250g de microlotes diferentes por mês + Brindes
+                            exclusivos e frete grátis.
+                        </p>
+                    </article>
+                    <article class="section-assinatura__cards--mestre">
+                        <h3 class="section-assinatura__subtitulo">Plano Mestre da Torra</h3>
+                        <p>
+                            1kg de café em grãos ou moído semanalmente para
+                            quem não vive sem um café fresco de altíssima qualidade.
+                        </p>
+                    </article>
+                </div>
             </div>
         </section>
-        
+
         <!-- Section 5 -->
         <section id="faq" class="section-faq">
+
             <div class="section-faq__titulo">
                 <h2>Perguntas Frequentes sobre Nossos Cafés</h2>
             </div>
-            
 
             <div class="section-faq__perguntas">
                 <details class="section-faq__item">
-                    <summary class="section-faq__sumary">Qual a diferença entre café tradicional e café especial?</summary>
-                    <p class="section-faq__texto">O café especial é composto por grãos 100% Arábica sem defeitos, avaliados pela
+                    <summary class="section-faq__sumary">Qual a diferença entre café tradicional e café especial?
+                    </summary>
+                    <p class="section-faq__texto">O café especial é composto por grãos 100% Arábica sem defeitos,
+                        avaliados pela
                         Specialty Coffee Association (SCA) com nota acima de 80 pontos, oferecendo sabores e
                         aromas naturais sem necessidade de torra queimada.</p>
                 </details>
-
                 <details class="section-faq__item">
                     <summary class="section-faq__sumary">É melhor comprar o café em grãos ou moído?</summary>
-                    <p class="section-faq__texto">Recomendamos comprar em grãos e moer imediatamente antes do preparo para
+                    <p class="section-faq__texto">Recomendamos comprar em grãos e moer imediatamente antes do preparo
+                        para
                         preservar todos os óleos essenciais e aromas. No entanto, enviamos moído na espessura
                         ideal para o seu método caso prefira.</p>
                 </details>
-
                 <details class="section-faq__item">
                     <summary class="section-faq__sumary">Como funciona o envio do Clube de Assinatura?</summary>
-                    <p class="section-faq__texto">As torras do clube ocorrem toda primeira segunda-feira do mês. Os cafés são
+                    <p class="section-faq__texto">As torras do clube ocorrem toda primeira segunda-feira do mês. Os
+                        cafés são
                         embalados e despachados em até 24 horas após a torra para garantirmos o máximo de
                         frescor.</p>
                 </details>
-
                 <details class="section-faq__item">
-                    <summary class="section-faq__sumary">Qual é o prazo de validade recomendado para consumo do café especial?</summary>
-                    <p class="section-faq__texto">O café não estraga rapidamente, mas atinge seu ápice sensorial entre o 7o e o
+                    <summary class="section-faq__sumary">Qual é o prazo de validade recomendado para consumo do café
+                        especial?</summary>
+                    <p class="section-faq__texto">O café não estraga rapidamente, mas atinge seu ápice sensorial entre o
+                        7o e o
                         30o dia após a data da torra estampada no pacote.</p>
                 </details>
             </div>
+
         </section>
+        
+        <div class="whats">
+            <a href="https://wa.me/551633031100" target="_blank">Atendimento Whatsapp</a>
+    </div>
+        
     </main>
-    
+
     <footer class="footer">
         <div class="footer__section">
             <p>
