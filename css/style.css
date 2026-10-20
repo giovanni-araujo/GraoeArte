@@ -52,7 +52,7 @@
 }
 
 .section-inicio {
-    height: 100vh;
+    height: 86vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@
 }
 
 .section-graos {
-    height: 100vh;
+    height: 86vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,7 +148,7 @@
 }
 
 .section-torra {
-    height: 100vh;
+    height: 86vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,7 +172,7 @@
 }
 
 .section-assinatura {
-    height: 100vh;
+    height: 86vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -223,7 +223,7 @@
 }
 
 .section-faq{
-    height: 100vh;
+    height: 86vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -262,4 +262,24 @@
 .section-faq__texto{
     color: var(--color-text-body);
     font-size: var(--font-size-sm);
+}
+
+.footer{
+    display: flex;
+    height: 7vh;
+    position: fixed;
+    background-color: var(--color-header-bg);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    padding: 0 5%;
+
+}
+
+.footer__section{
+    display: flex;
+    align-items: center;
+    color: var(--color-header-text);
+    
 }
